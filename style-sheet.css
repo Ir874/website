@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Future;
+    src: url(Quantum-eZOXg.ttf);
+    }
+
+body {
+        background-color: black;
+    }
+
+.section1{
+        color:beige;
+        font-family:Future;
+        text-align:center;
+    }
