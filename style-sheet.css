@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Future; 
+    font-family: Quantum; 
     src: url(Quantum-eZOXg.ttf);
 }
 @font-face {
@@ -10,11 +10,19 @@
     font-family: Inertia; 
     src: url(Inertia.ttf);
 }
+@font-face {
+    font-family:Futuristic;
+    src: url(Futuristic.ttf);
+}
+@font-face {
+    font-family:FA;
+    src: url(FuturisticArmour.ttf);
+}
 
 body {background-color: black;}
 
 .section1 {
         color:beige;
-        font-family: Future;
+        font-family: Futuristic;
         text-align:center;
     }
