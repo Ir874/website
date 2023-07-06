@@ -19,10 +19,24 @@
     src: url(FuturisticArmour.ttf);
 }
 
-body {background-color: black;}
+body {background-color: black;} 
+@keyframes bg {
+    from {color: black;}
+    to {color: beige;}
+}
 
-.section1 {
-        color:beige;
-        font-family: Futuristic;
-        text-align:center;
-    }
+
+.title {
+    font-family: FA;
+    text-align:center;
+    animation-name: bg;
+    animation-duration: 2s;
+}
+.subheading {
+    font-family: FA;
+    text-align:center;
+    animation-name: bg;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode:forwards;
+}
