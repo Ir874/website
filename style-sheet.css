@@ -19,24 +19,16 @@
     src: url(FuturisticArmour.ttf);
 }
 
-body {background-color: black;} 
-@keyframes bg {
-    from {color: black;}
-    to {color: beige;}
+body {background-color: #ddd0c8;}
+
+@keyframes textcolor {
+    from {color: #ddd0c8;}
+    to {color: black;}
 }
 
+.text {
+    color: #323232;;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
 
-.title {
-    font-family: FA;
-    text-align:center;
-    animation-name: bg;
-    animation-duration: 2s;
-}
-.subheading {
-    font-family: FA;
-    text-align:center;
-    animation-name: bg;
-    animation-duration: 2s;
-    animation-delay: 2s;
-    animation-fill-mode:forwards;
-}
