@@ -19,16 +19,49 @@
     src: url(FuturisticArmour.ttf);
 }
 
-body {background-color: #ddd0c8;}
+@font-face {
+    font-family:Ethereal;
+    src: url(Ethereal-Thin.otf);
+}
+
+body {background-color: #edf2fb;} 
+
+.top {
+    border-style: solid;
+    border-width: 2px;
+
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: solid;
+}
 
 @keyframes textcolor {
     from {color: #ddd0c8;}
     to {color: black;}
 }
 
-.text {
-    color: #323232;;
+.logo-text {
+    color : #000907;
+    display: inline-block;
+    margin-right: 50px;
+    text-align: justify;
+    font-size: 40px;
+    font-family: Ethereal;
+}
+
+.heading-text {
+    color : #000907;
     text-align: center;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+    font-family: Ethereal;
+}
+
+.generic_text {
+    color: #323232;
+    /* text-align: center; */
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
