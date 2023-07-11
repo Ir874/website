@@ -26,14 +26,19 @@
 
 body {background-color: #edf2fb;} 
 
-.top {
+.heading {
     border-style: solid;
     border-width: 2px;
+    position: sticky;
+    top:0;
+
 
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
     border-bottom-style: solid;
+
+
 }
 
 @keyframes textcolor {
@@ -44,24 +49,53 @@ body {background-color: #edf2fb;}
 .logo-text {
     color : #000907;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 5%;
+    margin-left: 2%;
     text-align: justify;
     font-size: 40px;
     font-family: Ethereal;
 }
 
+.login-button {
+    color : #000907;
+    display: inline-block;
+    text-align : right;
+
+    border-style: solid;
+    border-color: #000907;
+    padding:10px;
+
+    margin-left: 15%;
+    
+    font-size : 25px;
+    font-family: Ethereal;
+
+}
+
+.login-button:hover {
+    background-color: #abc4ff;
+    transition-delay: 5ms;
+}
+
+
+
 .heading-text {
     color : #000907;
     text-align: center;
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 2%;
     font-size: 20px;
     font-family: Ethereal;
 }
 
-.generic_text {
-    color: #323232;
-    /* text-align: center; */
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+.login-section {
+    background-color: #ccdbfd;
+    text-align: center;
+    margin-top:5%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+
 }
+
 
