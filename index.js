@@ -9,3 +9,7 @@ function loginbutton() {
 function loginpage() {
     window.location.href = "loginpage.html";
   }
+
+function homepage() {
+    window.location.href = "index.html";   
+}
