@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Log In to Your Account</title>
         <link rel="stylesheet" href="style-sheet.css">
         <script src="index.js"></script>
@@ -16,9 +17,19 @@
     
             <button class="login-button" onclick="loginpage()">Log In</button>
         </div>
+
         <div class="login-section">
             <h1 class="heading-text">Enter login details</h1>
+            <form>
+                <h1 class="login-text"><label for="username">Username</label></h1> <br>
+                <input type="text" id="username"> <br>
+
+                <h1 class="login-text"><label for="password">Password</label></h1> <br>
+                <input type="text" id="password"> <br>
+                
+            </form>
         </div>
+        
     </body>
 
 </html>

@@ -88,12 +88,29 @@ body {background-color: #edf2fb;}
     font-family: Ethereal;
 }
 
+.login-text {
+    color : #000907;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 15px;
+    font-family: Ethereal;
+}
+
 .login-section {
     background-color: #ccdbfd;
     text-align: center;
+
     margin-top:5%;
     margin-left: 25%;
     margin-right: 25%;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    
+    border-style: solid;
+
 
 
 }
