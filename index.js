@@ -13,3 +13,7 @@ function loginpage() {
 function homepage() {
     window.location.href = "index.html";   
 }
+
+function signuppage() {
+    window.location.href = "signuppage.html";   
+}

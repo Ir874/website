@@ -24,7 +24,10 @@
     src: url(Ethereal-Thin.otf);
 }
 
-body {background-color: #edf2fb;} 
+/* body {background-color:#444444;}  */
+body {
+    background-image: url('/images/backgroundimg.jpg');
+}
 
 .heading {
     border-style: solid;
@@ -38,6 +41,8 @@ body {background-color: #edf2fb;}
     border-left-style: none;
     border-bottom-style: solid;
 
+    border-color: #edf2fb;
+
 
 }
 
@@ -47,9 +52,9 @@ body {background-color: #edf2fb;}
 }
 
 .logo-text {
-    color : #000907;
+    color : #edf2fb;
     display: inline-block;
-    margin-right: 5%;
+    margin-right: 25%;
     margin-left: 2%;
     text-align: justify;
     font-size: 40px;
@@ -57,17 +62,39 @@ body {background-color: #edf2fb;}
 }
 
 .login-button {
-    color : #000907;
+    background-color : #444444;
+    color: #edf2fb;
+
     display: inline-block;
     text-align : right;
 
     border-style: solid;
-    border-color: #000907;
+    border-color: #edf2fb;
     padding:10px;
 
-    margin-left: 15%;
+    /* margin-left: 25%; */
     
-    font-size : 25px;
+    font-size : 20px;
+    font-family: Ethereal;
+
+}
+
+.signup-button {
+    background-color : #444444;
+    color: #edf2fb;
+
+    display: inline-block;
+    text-align : right;
+
+    margin-left: 1%;
+
+    border-style: solid;
+    border-color: #edf2fb;
+    padding:10px;
+
+    /* margin-left: 25%; */
+    
+    font-size : 20px;
     font-family: Ethereal;
 
 }
@@ -77,19 +104,14 @@ body {background-color: #edf2fb;}
     transition-delay: 5ms;
 }
 
+.signup-button:hover {
+    background-color: #abc4ff;
+    transition-delay: 5ms;
+}
 
 
 .heading-text {
-    color : #000907;
-    text-align: center;
-    display: inline-block;
-    margin-right: 2%;
-    font-size: 20px;
-    font-family: Ethereal;
-}
-
-.login-text {
-    color : #000907;
+    color : #edf2fb;
     text-align: center;
     display: inline-block;
     margin-right: 2%;
@@ -97,19 +119,39 @@ body {background-color: #edf2fb;}
     font-family: Ethereal;
 }
 
+.login-text {
+    color : #edf2fb;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 25px;
+    font-family: Ethereal;
+}
+
+.login-text-big {
+    color : #edf2fb;
+    text-align: center;
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 30px;
+    font-family: Ethereal;
+}
+
+
 .login-section {
-    background-color: #ccdbfd;
+    background-color: #333333;
     text-align: center;
 
     margin-top:5%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 40%;
+    margin-right: 40%;
     
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
     padding-bottom: 5%;
     
     border-style: solid;
+    border-width: 1px;
 
 
 
